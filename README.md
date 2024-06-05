@@ -1,16 +1,9 @@
 # fl_input_issue
+This is a simple project to reproduce an issue with the `TextField` widget in Flutter.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Steps
+1. Build this project with Flutter `3.22.1`.
+2. At this time, the `TextField` works as expected.
+3. Click on the `FloatingActionButton` to navigate to the second screen.
+4. Back to the first screen.
+5. The `TextField` is not working anymore.
